@@ -83,6 +83,12 @@ public class CharacterServiceImpl implements CharacterService {
         return "WHAT DO WE SAY TO THE GOD OF DEATH? TODAY!";
     }
 
+    @Override
+    public String updateCharacter(Character character) {
+        characterDAO.save(character);
+        return "MODIFIED IT'S FAITH.";
+    }
+
 
     private void mapResponse(StringBuffer content) throws Exception {
         ObjectMapper objectMapper = new ObjectMapper();

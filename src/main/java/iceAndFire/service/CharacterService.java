@@ -8,4 +8,5 @@ public interface CharacterService {
     String getCharacterById(Long id);
     String saveCharacter(Character character);
     String deleteCharacter(Character character);
+    String updateCharacter(Character character);
 }
