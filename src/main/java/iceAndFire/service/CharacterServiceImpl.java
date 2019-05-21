@@ -83,6 +83,10 @@ public class CharacterServiceImpl implements CharacterService {
         return "WHAT DO WE SAY TO THE GOD OF DEATH? TODAY!";
     }
 
+    public void deleteCharacterById(Long id) {
+        characterDAO.findById(id).ifPresent(character -> characterDAO.delete(character));
+    }
+
     @Override
     public String updateCharacter(Character character) {
         characterDAO.save(character);
