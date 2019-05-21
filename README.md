@@ -14,9 +14,9 @@ Our one and only entity is __Character__ - a character from GOT (ex: Tyrion Lann
 Build an application with three layers(DAO, Service, RestController) based on Spring Boot. We provide DAOs and Services but not the Controllers.  
 ### Task1
 Create a rest controller with the following CRUD methods:
+* save(Character) - save your own character
 * getById(Long id) - return to client the character with specified id
 * getAll() - return to client all characters
-* save(Character) - save your own character
 * update(Character) - update a character
 * delete(Long id) - delete the character with given id  
 All endpoints will produce text output(plain text).  
