@@ -7,5 +7,5 @@
 
 ## Workshop - Game of Thrones
 
-Downliad postman(app or chrome extension) https://www.getpostman.com/downloads/
+Download postman(app or chrome extension) https://www.getpostman.com/downloads/
 
