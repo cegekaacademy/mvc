@@ -17,11 +17,12 @@ Create a rest controller with the following methods:
 * getAll() - return to client all characters
 * save(Character) - save your own character
 * update(Character) - update a character
-* delete(Long id) - delete the character with given id
+* delete(Long id) - delete the character with given id  
 All endpoints will produce text output(plain text).  
   
 Save/update request body:   
-```    {
+```
+      {
         "id":"271",
             "url":"",
             "name":"Ion Zapada",
@@ -32,4 +33,5 @@ Save/update request body:
             "titles": ["Regele Omatului"],
         "aliases":[""],
         "playedBy":[""]
-       } ```
+       }
+```
