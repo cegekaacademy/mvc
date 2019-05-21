@@ -6,7 +6,7 @@
 * MVC
 
 ## Setup
-Download postman(app or chrome extension) https://www.getpostman.com/downloads/
+Download and install postman(app or chrome extension) https://www.getpostman.com/downloads/
 
 ## Workshop - Game of Thrones
 We want to create a GOT API.  
