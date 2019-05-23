@@ -36,3 +36,12 @@ Save/update request body:
         "playedBy":[""]
        }
 ```
+
+### Task2
+#### Task2.1
+Intercept all request and check if those are authorized. If a request is not authorized then it should be rejected(no controller should process is).  
+A request is authorized if has an __Authorization__ header with a value defind by you. Any other request is invalid.  
+
+#### Task2.2
+Extend precedent task with __basic access authentication__. So authorization header should have a __basic auth__ token as value(generate it with postman).  
+On server side(in interceptor) decode __basic auth__ header and check if user and password are same with those defined by you.
